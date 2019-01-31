@@ -1,38 +1,42 @@
-html{
+html {
     background-color: azure
 }
-table th, td{
+
+table th, td {
     border: 1px solid black;
     padding: 10px;
 }
-table{
+
+table {
     border-collapse: collapse;
     position: absolute;
-    text-align: center; 
+    text-align: center;
 }
-.frame-container{
-    margin: 0 auto; 
+
+.frame-container {
+    margin: 0 auto;
     width: 320px;
     text-align: center;
 }
- .screen {
-     padding: 1px;
-	height: 80px;
+
+.screen {
+    padding: 1px;
+    height: 80px;
     width: 407px;
     border: 3px solid #F0A6CA;
-	
 }
 
 td {
-    border: 3px solid #F0A6CA;;
+    border: 3px solid #F0A6CA;
+    ;
     height: 80px;
     width: 80px;
-    font-family: "Helvetica",sans-serif,monospace;
+    font-family: "Helvetica", sans-serif, monospace;
     font-size: 65px;
     cursor: pointer;
     color: #B8BEDD;
 }
-.funcs{
+
+.funcs {
     background-color: aquamarine
 }
-
