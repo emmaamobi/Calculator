@@ -15,7 +15,7 @@ table{
     width: 320px;
     text-align: center;
 }
- .top .screen {
+ .screen {
      padding: 1px;
 	height: 80px;
     width: 407px;
@@ -24,7 +24,7 @@ table{
 }
 
 td {
-    border: 3px solid #F0A6CA;
+    border: 3px solid #F0A6CA;;
     height: 80px;
     width: 80px;
     font-family: "Helvetica",sans-serif,monospace;
