@@ -11,6 +11,8 @@ function showVal(e){
     if(btnValue === 'C'){
         input.innerHTML = '';
     }
+    //Use regex and replace 'x' with '*', so it evaluates properly 
+    eqn = eqn.replace(/x/g,'*');
     //Calculate and display the solution if '=' is pressed
     else if(btnValue === '='){
         let eqn = inputValue;
