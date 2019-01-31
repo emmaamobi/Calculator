@@ -1,3 +1,6 @@
+html{
+    background-color: azure
+}
 table th, td{
     border: 1px solid black;
     padding: 10px;
@@ -9,9 +12,17 @@ table{
 }
 .frame-container{
     margin: 0 auto; 
-    width: 330px;
+    width: 320px;
     text-align: center;
 }
+ .top .screen {
+     padding: 1px;
+	height: 80px;
+    width: 407px;
+    border: 3px solid #F0A6CA;
+	
+}
+
 td {
     border: 3px solid #F0A6CA;
     height: 80px;
@@ -21,3 +32,7 @@ td {
     cursor: pointer;
     color: #B8BEDD;
 }
+.funcs{
+    background-color: aquamarine
+}
+
